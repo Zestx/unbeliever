@@ -1,0 +1,172 @@
+@font-face
+{
+	font-family: 'milkshake';
+	src: url('./Milkshake.ttf') format('truetype');
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: milkshake, "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+  margin: 0 auto;
+}
+
+h2 {
+  letter-spacing: 20px;
+}
+
+
+
+.pimg1, .pimg2, .pimg3 {
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.pimg1 {
+  background-image: url('../images/bg3.jpg');
+  min-height:100%;
+}
+
+.pimg2 {
+  background-image: url('../images/bg2.jpg');
+  min-height:400px;
+}
+
+.pimg3 {
+  background-image: url('../images/bg1.jpg');
+  min-height:400px;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light {
+  background-color: #ffffff;
+  color: #666
+}
+
+.section-dark {
+  background-color: #2e2e34;
+  color: #ddd;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+}
+
+.ptext .border {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px;
+  padding-top: 70px;
+}
+
+.ptext .border.trans {
+  background-color: transparent;
+  font-family: 'gojira';
+  font-size: 27px;
+  font-weight: 500;
+  font-style: oblique;
+  color: #ffecff;
+}
+
+.head_title, .foot_title {
+  opacity: 0.8;
+  font-size: 100px;
+}
+
+.menu {
+  display: inline-flex;
+  margin: 0 auto;
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+a {
+	color: white;
+	opacity: 0.8;
+	text-decoration: none;
+}
+
+.l_home {
+  width: 310px;
+}
+
+.l_home_h:hover {
+  color: pink;
+}
+
+.l_media {
+  width: 310px;
+}
+
+.l_media_h:hover {
+  color: pink;
+}
+
+.l_tour {
+  width: 310px;
+}
+
+.l_tour_h:hover {
+  color: pink;
+}
+
+.l_merch {
+  width: 310px;
+}
+
+.l_merch_h:hover {
+  color: pink;
+}
+
+.event_table {
+		width: 700px;
+		margin: 0 auto;
+		color: black;
+		opacity: 0.85;
+		margin-top: 100px;
+}
+
+.tour_dates {
+	text-align: left;
+	font-size: 20px;
+	border: 3px solid pink;
+	padding: 50px;
+	background-color: rgba(230, 230, 230, .7);
+	margin: auto;
+	margin-top: 200px;
+}
+
+.buy {
+	font-size: 10px;
+}
+
+.tour_name {
+	color: white;
+	opacity: 0.8;
+	font-size: 30px;
+}
+
+th {
+	padding: 0px 10px;
+}
